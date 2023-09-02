@@ -18,9 +18,10 @@ public class Main {
         System.out.println(result);
 
     }
-    public static String reverseWord(String word){
+
+    public static String reverseWord(String word) {
         StringBuilder reversedWord = new StringBuilder();
-        for(int i = word.length()-1; i>=  0; i--){
+        for (int i = word.length() - 1; i >= 0; i--) {
             reversedWord.append(word.charAt(i));
         }
         return reversedWord.toString();
@@ -29,5 +30,5 @@ public class Main {
         String word = sc.nextLine();
         StringBuilder dsef = new StringBuilder(word);
         System.out.println(dsef.reverse());*/
-    }
 }
+
