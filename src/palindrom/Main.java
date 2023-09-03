@@ -23,7 +23,6 @@ public class Main {
             System.out.println("The second string is not a palindrome of the first string.");
         }
 
-
     }
 
 }
